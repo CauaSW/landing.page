@@ -1,0 +1,254 @@
+*{
+  margin: 0;
+}
+
+
+.main {
+  background-color: #28703C;
+}
+
+.main div {
+  display: flex;
+  justify-content: center;
+}
+
+
+div img {
+  width: 15%;
+  top: 50px;
+}
+
+
+nav {
+background-color: #348A4C;
+z-index: 1;
+overflow: hidden;
+}
+
+.menu {
+  padding: 15px;
+  border: solid black;
+}
+
+a.BotaoEsquerda{
+  background-color: #C8DDCE;
+  border-radius: 50px;
+  color: #348A4C;
+  padding: 9px 32px;
+  font-size: 24px;
+  float: right;
+  border: solid black;
+}
+
+nav b.FraseCta {
+  background-color: white;
+  font-size: 38px;
+  padding: 5px;
+  color: #28703C;
+  text-align: center;
+  margin-left: 55px;
+  margin-top: 5px;
+  border: solid black;
+}
+
+.banner video {
+  width: 80%;
+  height: 80%;
+  object-fit: pill;
+  position: relative;
+  margin: 5px -150px;
+
+}
+.banner{
+  position: relative;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  border: 1px solid black;
+  margin-bottom:  16px;
+}
+
+.cardConteudo {
+  display: flex;
+  align-items: flex-start;
+}
+.cardConteudo img {
+  width: 250px;
+  height: auto;
+}
+
+.texto {
+  background-color: #C8DDCE;
+  border: solid 1px black;
+  
+}
+
+.texto b {
+  position: relative;
+  left: 50%;
+  font-size: 1.2em;
+  margin-bottom: 8px;
+
+}
+
+.texto p {
+  position: relative;
+  top: 50px;
+  padding: 2px;
+  font-size: 22px;
+  background-color: #C8DDCE;
+  border-radius: 10px;
+  margin: 0 0 8px 0;
+  color: #28703C;
+}
+
+.texto a {
+  position: relative;
+  top: 94px;
+  right: 388px;
+  background-color: #123f1f;
+  font-size: 22px;
+  padding: 1px;
+  color: white;
+  text-align: center;
+  border: solid black;
+}
+
+.texto a:hover {
+  text-decoration: underline;
+}
+
+.FVerde {
+    background-color: #28703c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 70%;
+    justify-content: space-evenly;
+
+
+}
+.FBranco {
+    background-color: #EFEFEF;
+    width: 30%;
+    display: flex;
+    float: right;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+h2 {
+    color: #28703c;
+    text-align: center;
+    font-size: 74px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.footer-content {
+    margin-bottom: 10px;
+}
+
+
+.FVerde a {
+    color: white;
+    text-decoration: none;
+    font-size: 36px;
+    margin-right: 28%;
+
+}
+a:hover {
+    text-decoration: underline;
+}
+footer img {
+    width: 25%;
+
+
+}
+
+.Rodapé {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.Instagram {
+    width: 5%;
+
+}
+
+.facebook {
+    width: 5%;
+    margin-right: 20px;
+
+}
+
+.logo {
+    width: 40%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+
+}
+
+.FVerde p {
+    font-size: 22px;
+}
+
+.barra {
+    width: 55%;
+    height: 2px;
+    background-color: white;
+    margin-left: 23%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.FBranco .fone1 {
+    font-size: 28px;
+    color: #28703c;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.FBranco .fone2 {
+    font-size: 28px;
+    color: #28703c;
+    text-align: center;
+    margin-right: 32px;
+    margin-bottom: 10px;
+}
+
+.FBranco .Msg {
+    font-size: 28px;
+    color: #28703c;
+    text-align: center;
+    margin: 10px;
+}
+
+.FBranco .linkcontato {
+    display: inline-block;
+    background-color: #28703c;
+    color: white;
+    font-size: 32px;
+    padding: 15px;
+    text-align: center;
+    margin: 10px auto;
+    text-decoration: none;
+    width: 60%;
+}
+
+.FBranco .linkcontato:hover {
+    background-color: #0b491d;
+}
+.imagens {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 23%;
+    margin-top: 1%;
+
+}
